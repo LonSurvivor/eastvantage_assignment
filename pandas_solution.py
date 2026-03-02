@@ -41,8 +41,8 @@ def main():
 
         export_to_csv(df, OUTPUT_PATH)
 
-    except Exception as e:
-        print(f"Error: {e}")
+    except Exception as err:
+        print(f"Error: {err}")
     finally:
         conn.close()
 
